@@ -119,7 +119,7 @@ const ProductDetails = async ({params: {id}}: Props) => {
         </div>
       </div>
 
-      {/* <div className="flex flex-col gap-16">
+      <div className="flex flex-col gap-16">
         <div className="flex flex-col gap-5">
           <h3 className="text-2xl text-secondary font-semibold">
             Product Description
@@ -142,7 +142,7 @@ const ProductDetails = async ({params: {id}}: Props) => {
             Buy Now
           </Link>
         </button> 
-      </div> */}
+      </div> 
 
       {similarProducts && similarProducts?.length > 0 && (
         <div className="py-14 flex flex-col gap-2 w-full">
